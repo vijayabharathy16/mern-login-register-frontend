@@ -1,0 +1,6 @@
+.logout:hover{
+    background-color: rgb(216, 30, 30);
+    color: #ffff;
+    outline: none;
+    border: none;
+}
