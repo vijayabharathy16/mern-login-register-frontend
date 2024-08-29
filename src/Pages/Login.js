@@ -9,7 +9,7 @@ function Login() {
   const loginUser = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:4000/login", {
+      const response = await fetch("https://mern-login-register-1.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
